@@ -15,6 +15,6 @@ The repository is organized in a modular way to facilitate reproducibility of th
 
 - run_model.R: R script used to prepare the data, compile the Stan model, and run the Bayesian inference within the HMSC framework. This script controls the model settings, sampling parameters, and storage of model outputs.
 
-model_prediction.R: contains all scripts required to generate model predictions, post-processing analyses, and the figures presented in the manuscript. *Running this script allows full replication of the results and visualizations based on the model outputs*.
+- model_prediction.R: contains all scripts required to generate model predictions, post-processing analyses, and the figures presented in the manuscript. *Running this script allows full replication of the results and visualizations based on the model outputs*.
 
 Each script starts with a description of the required input files and includes detailed comments guiding the user through the workflow. For a complete explanation of the modelling framework, assumptions, and prediction procedures, we strongly recommend consulting the Extended Methods section of the Supplementary Information.
