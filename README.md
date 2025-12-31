@@ -1,4 +1,4 @@
-# Benthic-assemblages
+# Benthic-assemblages modelling
 
 Joint species distribution modelling of Antarctic benthic assemblages.
 
@@ -18,3 +18,6 @@ The repository is organized in a modular way to facilitate reproducibility of th
 - model_prediction.R: contains all scripts required to generate model predictions, post-processing analyses, and the figures presented in the manuscript. *Running this script allows full replication of the results and visualizations based on the model outputs*.
 
 Each script starts with a description of the required input files and includes detailed comments guiding the user through the workflow. For a complete explanation of the modelling framework, assumptions, and prediction procedures, we strongly recommend consulting the Extended Methods section of the Supplementary Information.
+
+Benthic abundance data belong to Laboratorio de Ecosistemas Marinos y Polares (ECOMARES; Instituto de Diversidad y Ecología Animal, Universidad Nacional de Córdoba - Consejo Nacional de Ciencia y Tecnología).
+*Requests to use the data should be addressed to Dr. Ricardo Sahade (rsahade@unc.edu.ar)*. Trait data and taxonomic matrix are available in Supplementary Information A and D, and should be cited accordingly.
