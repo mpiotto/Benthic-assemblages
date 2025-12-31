@@ -6,6 +6,15 @@ This repository contains the model implementation used to analyse temporal and d
 
 The model integrates species occurrence and abundance (percent cover) data with environmental variables, species functional traits, and phylogenetic relationships to infer the ecological filtering processes shaping benthic assemblages through time.
 
-Datasets are available at PANGEA repository (pangea.de), and the model implementation is provided in the Model/ folder. Both the data structure and the full model specification are described in detail in the Supplementary Information of the manuscript.
 
-Every script starts explaining the content of the files that you will need to run it. In addition, every script has notes and comments indicating how to use the codes and reproduce the results. However, we strongly suggest your reading the Extended Methods section of the Supplementary Information for further details on the models and to understand how some of the predictions were made.
+# File description
+
+The repository is organized in a modular way to facilitate reproducibility of the analyses and results presented in the manuscript. Below is a brief description of the main files included in the Model/ folder:
+
+ - stan_model.stan: contains the Stan code specifying the JSDM used in our study, including the hierarchical structure, environmental effects, species functional traits, and phylogenetic relationships.
+
+- run_model.R: R script used to prepare the data, compile the Stan model, and run the Bayesian inference within the HMSC framework. This script controls the model settings, sampling parameters, and storage of model outputs.
+
+model_prediction.R: contains all scripts required to generate model predictions, post-processing analyses, and the figures presented in the manuscript. *Running this script allows full replication of the results and visualizations based on the model outputs*.
+
+Each script starts with a description of the required input files and includes detailed comments guiding the user through the workflow. For a complete explanation of the modelling framework, assumptions, and prediction procedures, we strongly recommend consulting the Extended Methods section of the Supplementary Information.
