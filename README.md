@@ -19,5 +19,4 @@ The repository is organized in a modular way to facilitate reproducibility of th
 
 Each script starts with a description of the required input files and includes detailed comments guiding the user through the workflow. For a complete explanation of the modelling framework, assumptions, and prediction procedures, we strongly recommend consulting the Supplementary Information B.
 
-# Data and Accesibility.
 Datasets are available at PANGEA repository (pangea.de). Benthic abundance data belong to Laboratorio de Ecosistemas Marinos y Polares (ECOMARES; Instituto de Diversidad y Ecología Animal, Universidad Nacional de Córdoba - Consejo Nacional de Ciencia y Tecnología). *Requests to use the data should be addressed to Dr. Ricardo Sahade (rsahade@unc.edu.ar)*. Trait data and taxonomic matrix are available in Supplementary Information A and D, and must be cited accordingly.
