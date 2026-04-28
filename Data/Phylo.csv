@@ -1,0 +1,42 @@
+Taxonomic information of Potter Cove benthic species;;;;;;;;;;;;;;;;
+Information was retrieved from WoRMS (WoRMS Editorial Board 2025).;;;;;;;;;;;;;;;;
+The taxonomic tree and correlation matrix were constructed using data.tree and ape R-packages (Paradis & Schliep 2019, Glur 2024). ;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+Glur, C. (2024). data.tree: General Purpose Hierarchical Data Structure. R package version 1.1.0. https://CRAN.R-project.org/package=data.tree;;;;;;;;;;;;;;;;
+Paradis, E., & Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35(3), 526–528. https://doi.org/10.1093/bioinformatics/bty633;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+species;genus;subfamily;family;superfamily;infraorder;suborder;order;superorder;subterclass;infraclass;subclass;class;superclass;subphylum;phylum;kingdom
+Aplidium radiatum;aplidium;NA;polyclinidae;NA;NA;NA;aplousobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Ascidiacea challengeri;ascidia;NA;ascidiidae;NA;NA;NA;phlebobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Cnemidocarpa verrucosa;cnemidocarpa;NA;styelidae;NA;NA;NA;stolidobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Corella antarctica;corella;NA;corellidae;NA;NA;NA;phlebobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Dendrilla antarctica;dendrilla;NA;darwinellidae;NA;NA;NA;dendroceratida;NA;NA;NA;keratosa;demospongiae;NA;NA;porifera;animalia
+Diplasterias brucei;diplasterias;NA;asteriidae;NA;NA;NA;forcipulatida;forcipulatacea;NA;neoasteroidea ;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Distaplia cylindrica;distaplia;NA;holozoidae;NA;NA;NA;aplousobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Glyptonotus antarcticus;glyptonotus;NA;chaetiliidae;NA;NA;valvifera;isopoda;peracarida;NA;NA;eumalacostraca;malacostraca;multicrustacea;crustacea;arthropoda;animalia
+Haliclona spp.;haliclona;NA;chalinidae;NA;NA;NA;haplosclerida;NA;NA;NA;heteroscleromorpha;demospongiae;NA;NA;porifera;animalia
+Laternula elliptica;laternula;NA;laternulidae;thracioide;NA;NA;NA;anomalodesmata;NA;heterodonta;autobranchia;bivalvia;NA;NA;mollusca;animalia
+Lyrocteis flavopallidus;lyrocteis;NA;lyroctenidae;NA;NA;NA;platyctenida;NA;NA;NA;NA;tentaculata;NA;NA;ctenophora;animalia
+Malacobelemnon daytoni;malacobelemnon;NA;kophobelemnidae;penatuloidea;NA;NA;scleralcyonacea;NA;NA;NA;NA;octocorallia;NA;anthozoa;cnidaria;animalia
+Marseniopsis mollis;marseniopsis;marseniopsinae;velutinidae;velutinoidea;NA;NA;littorinimorpha;NA;NA;NA;caenogastropoda;gastropoda;NA;NA;mollusca;animalia
+Molgula pedunculata;molgula;NA;molgulidae;NA;NA;NA;stolidobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Mycale acerata;mycale;NA;mycalidae;NA;NA;NA;poecilosclerida;NA;NA;NA;heteroscleromorpha;demospongiae;NA;NA;porifera;animalia
+Nacella concinna;nacella;NA;nacellidae;patelloidea ;NA;NA;patellogastropoda;NA;NA;NA;patellogastropoda;gastropoda;NA;NA;mollusca;animalia
+Neobuccinum eatoni;neobuccinum;NA;prosiphonidae;buccinoidea;NA;NA;neogastropoda;NA;NA;NA;caenogastropoda;gastropoda;NA;NA;mollusca;animalia
+Odontaster validus;odontaster;NA;odontasteridae;NA;NA;NA;valvatida;valvatacea;NA;neoasteroidea;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Ophionotus victoriae;ophionotus;ophiurinae;ophiuridae;NA;NA;ophiurina;ophiurida;euryophiurida;NA;metophiurida;myophiuroida;ophiuroidea;NA;asterozoa;echinodermata;animalia
+Parborlasia corrugata;parborlasia;NA;lineidae;NA;NA;NA;heteronemertea;NA;NA;NA;NA;pilidiophora;NA;NA;nemertea;animalia
+Perknaster aurorae;perknaster;ganeriinae;asterinidae;NA;NA;NA;valvatida;valvatacea;NA;neoasteroidea;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Perknaster fuscus;perknaster;ganeriinae;asterinidae;NA;NA;NA;valvatida;valvatacea;NA;neoasteroidea;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Perknaster sp1.;perknaster;ganeriinae;asterinidae;NA;NA;NA;valvatida;valvatacea;NA;neoasteroidea;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Perknaster sp2.;perknaster;ganeriinae;asterinidae;NA;NA;NA;valvatida;valvatacea;NA;neoasteroidea;ambuloasteroidea;asteroidea;NA;asterozoa;echinodermata;animalia
+Pyura setosa;pyura;NA;pyuridae;NA;NA;NA;stolidobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Rossella antarctica;rossella;NA;rossellidae;NA;NA;NA;lyssacinosida;NA;NA;NA;hexasterophora;hexactinellida;NA;NA;porifera;animalia
+Paraserolis sp.;serolis;NA;serolidae;seroloidea;NA;sphaeromatidea;isopoda;peracarida;NA;NA;eumalacostraca;malacostraca;multicrustacea;crustacea;arthropoda;animalia
+Sterechinus neumayeri;sterechinus;NA;echinidae;NA;echinidea;NA;camarodonta;NA;echinacea;carinacea;euechinoidea;echinoidea;NA;echinozoa;echinodermata;animalia
+Styela wandeli;styela;NA;styelidae;NA;NA;NA;stolidobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Stylocordyla borealis;stylocordyla;NA;stylocordylidae;NA;NA;NA;suberitida;NA;NA;NA;heteroscleromorpha;demospongiae;NA;NA;porifera;animalia
+Sycozoa gaimardi;sycozoa;NA;holozoidae;NA;NA;NA;aplousobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Synoicum adareanum;synoicum;NA;polyclinidae;NA;NA;NA;aplousobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Tylobranchion speciosum;tylobranchion;NA;diazonidae;NA;NA;NA;aplousobranchia;NA;NA;NA;NA;ascidiacea;NA;tunicata;chordata;animalia
+Urticinopsis antarctica;urticinopsis;;actiniidae;actinioidea;;enthemonae;actiniaria;;;;;hexacorallia;;anthozoa;cnidaria;animalia
