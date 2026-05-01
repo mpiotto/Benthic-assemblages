@@ -12,7 +12,7 @@ load(input_fn)
 
 # Prepare data ------------------------------------------------------------
 
-# List with vectors indicating which rows have presence by genus
+# List with vectors indicating which rows have presence by species
 pres_rows <- lapply(1:ncol(Y), function(i) {
   unname(which(Y[, i] > 0))
 })
@@ -78,8 +78,8 @@ pars <- c("z", "betas", "phi",
 Sys.setenv(LOCAL_CPPFLAGS = '-march=native')
 rstan_options(auto_write = TRUE)
 
-source_fn <- "SCAR_v3.stan"
-output_fn <- "model_fit_v3.RData"
+source_fn <- "SCAR.stan"
+output_fn <- "model_fit.RData"
 
 # Fit model --------------------------------------------------------------
 
@@ -93,3 +93,25 @@ fit <- sampling(
 )
 
 save(fit, file = output_fn)
+
+# Warning messages:
+#   1: There were 10 divergent transitions after warmup. See
+# https://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup
+# to find out why this is a problem and how to eliminate them.
+# 2: Examine the pairs() plot to diagnose sampling problems
+
+# Too few divergent transitions to be a problem
+# (10 / ((8000-2000) * 4) * 100 = 0.04166667 %)
+
+# Runtime:
+# 31488.2/3600 = 8.746722 h
+
+# Check convergence and n_eff --------------------------------------------
+load(output_fn)
+summ <- summary(fit)[[1]]
+min(summ[, "n_eff"], na.rm = T) # 1707.471
+max(summ[, "Rhat"], na.rm = T)  # 1.000728 
+
+View(summ[order(summ[, "n_eff"]), ])
+# The lowest n_eff occurs in parameters that are fixed at 1 (diagonal
+# elements in Omega), to the actual lowest n_eff is 7389.057, in rho.
